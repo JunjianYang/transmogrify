@@ -45,8 +45,6 @@ namespace transmogrify
                     branch = rUri.Segments[4].Replace("/", "");
                 }
 
-                https://portal.azure.us/#create/Microsoft.Template/uri/
-
                 string portal = "https://portal.azure.com";
                 if (context.Request.Query["environment"] == "gov")
                 {
